@@ -1,0 +1,283 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+p {
+    font-size: ;
+    line-height: ;
+}
+h1 {
+    color: #444343;
+    font-size: 75px; 
+}
+h2
+h3
+h4 {
+    color: #444343;
+    }
+h5
+h6 {
+}
+html,
+body { height: 100% }
+body {
+
+}
+a:hover { text-decoration: none }
+
+
+/* header-top section start */
+.header-top {
+    padding-top: 52px;
+    padding-bottom: 297px;
+    background: url(../images/header_background.png);
+}
+.header-top ul {
+    margin-top: 10px;
+}
+.ftdi {
+    font-size: 16px;
+    color: #444343;
+}
+.header-top h4 {
+    font-style: ;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+}
+
+/* header-top section end */
+
+/*slider section start*/
+
+.slider {
+    margin-top: -248px;
+}
+/*slider section end*/
+
+/* portfolio section start */
+.portfolio {
+    padding-bottom: 65px;
+}
+.portfolio h4 {
+    margin-top: 45px;
+    margin-bottom: -10px;
+    font-size: 30px;
+}
+.about {
+    margin-top: 30px;
+}
+
+/* portfolio section end */
+
+/* image section start */
+.image{
+    padding-top: 72px;
+    padding-bottom: 78px;
+    background-image: url(../images/portfolio_background.png);
+}
+.image-lft {
+    margin-left: -15px;
+    margin-right: 12px;
+}
+.image-rght {
+    margin-right: -15px;
+}
+.image img{
+    padding-bottom: 12px;
+}
+.image-large {
+    width: 100%;
+    height: 615px;
+}
+
+
+/* image section end */
+
+/* contact section start */
+.contact {
+    padding-top: 70px ;
+    padding-bottom: 70px;
+}
+.text-field-one
+{
+    background: url(../images/feedback_user.png)no-repeat 10px 13px #444343;
+    background-color: #EBEBEB;
+    border: 1px solid #FFFFFF;
+    box-shadow: 1px 1px 7px 0px #888888;
+    border-radius: 3px;
+    color: ;
+    font-size: 15px;
+    height: 45px;
+    margin-bottom: 0;
+    padding-left: 35px;
+    width:;
+}
+.text-field-two
+{
+    background: url(../images/feedback_message.png)no-repeat 10px 15px #444343;
+    background-color: #EBEBEB;
+    border: 1px solid #FFFFFF;
+    box-shadow: 1px 1px 7px 0px #888888;
+    border-radius: 3px;
+    color: ;
+    font-size: 15px;
+    height: 45px;
+    margin-bottom: 0;
+    padding-left: 35px;
+    width:;
+}
+.text-field-three
+{
+    background: url(../images/globe.png)no-repeat 10px 13px #444343;
+    background-color: #EBEBEB;
+    border: 1px solid #FFFFFF;
+    box-shadow: 1px 1px 7px 0px #888888;
+    border-radius: 3px;
+    color: ;
+    font-size: 15px;
+    height: 45px;
+    margin-bottom: 0;
+    padding-left: 35px;
+    width:;
+}
+.message {
+    background-color: #EBEBEB;
+    border: 1px solid #FFFFFF;
+    box-shadow: 1px 1px 7px 0px #888888;
+    border-radius: 3px;
+}
+.butn {
+    padding: 10px 35px;
+    background-color: #EBEBEB;
+    border: 1px solid #FFFFFF;
+    box-shadow: 1px 1px 7px 0px #888888;
+    border-radius: 3px;
+}
+
+.john img {
+    height: 38%;
+    width: 213px;
+}
+.follow {
+    margin-top: 10px ;
+    margin-left: -10px;
+
+}
+/* contact section end */
+
+/* footer section start */
+.footer {
+    padding-top: ;
+    padding-bottom: 60px;
+}
+.brdr {
+    border-top: 1px solid #EBEBEB;
+    margin-top:;
+}
+.top-space {
+    padding-top: 40px;
+}
+/* footer section end */
+
+
+
+@media screen and (max-width: 480px){
+
+/*header-top section start*/
+.header-top {
+    padding-bottom: 60px;
+}
+.header-top h4 {
+    text-align: center;
+}
+.header-top ul {
+    position: absolute;
+    margin-top: -65px;
+    margin-left: 185px;
+}
+/*header-top end*/
+
+/*slider section start*/
+.slider {
+    margin-top: -50px;
+}
+/*slider section end*/
+
+/*portfolio section start*/
+.portfolio h4 {
+    margin-top: ;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.portfolio h1 {
+    font-size: 35px;
+}
+
+/*portfolio section end*/
+
+/*image section start*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*image section end*/
+
+}
+
+
+@media (min-width: 480px) and (max-width: 768px){
+    
+    /*header-top section start*/
+    .header-top {
+        padding-bottom: 145px; 
+    }
+    .header-top ul li {
+        margin-top: ;
+        margin-right: ;
+    }
+    /*header-top section end*/
+
+    /*slider section start*/
+    .slider {
+        margin-top: -120px;
+    }
+    /*slider section end*/
+
+    /*portfolio section start*/
+    
+    .portfolio h1 {
+    font-size: 50px;
+}
+    /*portfolio section end*/
+
+/*image section start*/
+
+.center {
+  position: ;  
+  right: 0px;
+}
+/*image section end*/
+
+}
+
+
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
