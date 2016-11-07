@@ -205,9 +205,8 @@ a:hover { text-decoration: none }
     text-align: center;
 }
 .header-top ul {
-    position: absolute;
-    margin-top: -65px;
-    margin-left: 185px;
+    display: block;
+    margin-top: -75px;
 }
 /*header-top end*/
 
@@ -235,44 +234,57 @@ a:hover { text-decoration: none }
   margin-left: auto;
   margin-right: auto;
 }
+.pull-right {
+    float:  center !important;
+}
 /*image section end*/
+
+/*contact section start*/
+.john {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*contact section end*/
 
 }
 
 
 @media (min-width: 480px) and (max-width: 768px){
     
-    /*header-top section start*/
-    .header-top {
-        padding-bottom: 145px; 
-    }
-    .header-top ul li {
-        margin-top: ;
-        margin-right: ;
-    }
-    /*header-top section end*/
+/*header-top section start*/
+.header-top {
+    padding-bottom: 145px; 
+}
+   
+/*header-top section end*/
 
-    /*slider section start*/
-    .slider {
-        margin-top: -120px;
-    }
-    /*slider section end*/
+/*slider section start*/
+.slider {
+    margin-top: -120px;
+}
+/*slider section end*/
 
-    /*portfolio section start*/
+/*portfolio section start*/
     
-    .portfolio h1 {
+.portfolio h1 {
     font-size: 50px;
 }
-    /*portfolio section end*/
+/*portfolio section end*/
 
-/*image section start*/
-
-.center {
-  position: ;  
-  right: 0px;
+/*contact section start*/
+.john {
+    margin-top: 20px;
 }
-/*image section end*/
+/*contact section end*/
 
+/*footer section start*/
+.footer ul {
+    display: block;
+    margin-top: -75px;
+}
+/*footer section end*/
 }
 
 
